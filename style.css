@@ -1,0 +1,302 @@
+* {
+    margin: 0px;
+    font-family: sans-serif;
+    border: border-box;
+}
+
+/** BOX-1 FOR AMAZON-ICON **/
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    height: 60px;
+    background-color: hsl(180, 6%, 6%);
+    color: white;
+    align-items: center;
+}
+
+.nav-logo {
+    align-content: center;
+    height: 50px;
+    width: 100px;
+}
+
+.logo {
+    background-image: url(amazon-logo.png);
+    background-size: cover;
+    height: 30px;
+    width: 100px;
+    /* border: 1px solid red; */
+}
+
+.border {
+    border: 1px solid transparent;
+}
+
+.border:hover {
+    border: 1px solid white;
+    border-radius: 2px;
+}
+
+/**BOX-2 FOR LOCATION **/
+.address-first {
+    color: #cccccc;
+    font-size: .85rem;
+    margin-left: 15px;
+}
+
+.address-second {
+    font-size: 1rem;
+    margin-left: 5px;
+}
+
+.address-icon {
+    display: flex;
+    align-items: center;
+}
+
+.nav-address:hover {
+    cursor: pointer;
+}
+
+/**BOX-3 NAV SEARCH **/
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 5px;
+    width: 650px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.nav-search:hover {
+    border: 2px solid orange;
+}
+
+.search-select {
+    background-color: #f3f3f3;
+    width: 45px;
+    padding: 5px;
+    text-align: center;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border: none;
+}
+
+.search-input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: rgb(255, 220, 20);
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+/** BOX-4 SING IN**/
+
+span {
+    font-size: 0.7rem;
+}
+
+.nav-second {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/** BOX-5 CART **/
+.nav-cart i {
+    font-size: 35px;
+    height: 35px;
+}
+
+.nav-cart {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/** BOX-6 Pannal **/
+
+.pannel {
+    height: 40px;
+    background-color: #222f3d;
+    color: #f3f3f3;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.all-pannel {
+    font-size: 0.95rem;
+    color: chocolate;
+}
+
+.pannel-options p {
+    display: inline;
+}
+
+.pannel-options {
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 0.85rem;
+}
+
+/** BOX-7 HERO SECTION **/
+
+.hero-section {
+    background-image: url(heroSection.jpg);
+    background-size: cover;
+    height: 350px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-message {
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 90%;
+    margin-bottom: 25px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+.hero-message a {
+    color: rgb(89, 157, 21);
+    text-decoration: none;
+}
+
+/** BOX-8 SHOP SECTION **/
+
+.shop-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(201, 211, 216);
+}
+
+.box {
+    /* border: 2px solid black; */
+    height: 300px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+    font-size: 0.75rem;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+.box-image {
+    height: 200px;
+    background-size: cover;
+    margin: 1rem 0 1rem 0;
+}
+
+.box-content {
+    /* margin: top, right, bottom, left; */
+    margin: 0px 1rem 0px 2rem;
+}
+
+.box-content p {
+    color: rgb(89, 157, 21);
+}
+
+/** Box9 FOOTER PANNEL **/
+.footer-pannel1 {
+    height: 45px;
+    color: #dddddd;
+    background-color: #485c71;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    margin-top: 10px;
+}
+
+/** Box10 FOOTER PANNEL **/
+
+.footer-pannel2 {
+    height: 400px;
+    color: white;
+    background-color: #222f3d;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+}
+
+ul {
+    margin-top: 15px;
+}
+
+ul a {
+    display: block;
+    color: white;
+    margin-top: 10px;
+    font-size: 0.85rem;
+    text-decoration: none;
+}
+ul a:hover{
+    text-decoration:underline;
+}
+
+
+.footer-pannel3 {
+    background-color: #222f3d;
+    border-top: 1px solid white;
+    border-top: 0.5px solid white;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-logo {
+    background-image: url(amazon-logo.png);
+    height: 60px;
+    width: 200px;
+    background-size: cover;
+    margin-top: 10px;
+}
+
+.footer-pannel4 {
+    background-color: #222f3d;
+    height: 80px;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.pages {
+    padding-top: 15px;
+}
+
+.pages a {
+    margin: 3px;
+    text-decoration: none;
+    color: white;
+}
+
+.pages a:hover{
+    text-decoration: underline;
+}
+.copyright {
+    padding-top: 10px;
+    color: white;
+}
